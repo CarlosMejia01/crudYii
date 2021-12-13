@@ -1,0 +1,594 @@
+2021/12/13 23:18:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/screen.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/screen.css
+HTTP_REFERER=https://localhost/crudYii/index.php/site/index
+---
+2021/12/13 23:18:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/main.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/main.css
+HTTP_REFERER=https://localhost/crudYii/index.php/site/index
+---
+2021/12/13 23:18:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/form.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/form.css
+HTTP_REFERER=https://localhost/crudYii/index.php/site/index
+---
+2021/12/13 23:18:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/print.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/print.css
+HTTP_REFERER=https://localhost/crudYii/index.php/site/index
+---
+2021/12/13 23:18:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/form.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/form.css
+HTTP_REFERER=https://localhost/crudYii/index.php/site/index
+---
+2021/12/13 23:18:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/screen.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/screen.css
+HTTP_REFERER=https://localhost/crudYii/index.php/site/index
+---
+2021/12/13 23:18:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/main.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/main.css
+HTTP_REFERER=https://localhost/crudYii/index.php/site/index
+---
+2021/12/13 23:18:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/print.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/print.css
+HTTP_REFERER=https://localhost/crudYii/index.php/site/index
+---
+2021/12/13 23:18:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/main.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/main.css
+HTTP_REFERER=https://localhost/crudYii/index.php/site/index
+---
+2021/12/13 23:18:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/screen.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/screen.css
+HTTP_REFERER=https://localhost/crudYii/index.php/site/index
+---
+2021/12/13 23:18:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/form.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/form.css
+HTTP_REFERER=https://localhost/crudYii/index.php/site/index
+---
+2021/12/13 23:18:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/print.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/print.css
+HTTP_REFERER=https://localhost/crudYii/index.php/site/index
+---
+2021/12/13 23:19:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/screen.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/screen.css
+HTTP_REFERER=https://localhost/crudYii/index.php/site/index
+---
+2021/12/13 23:19:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/form.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/form.css
+HTTP_REFERER=https://localhost/crudYii/index.php/site/index
+---
+2021/12/13 23:19:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/main.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/main.css
+HTTP_REFERER=https://localhost/crudYii/index.php/site/index
+---
+2021/12/13 23:19:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/print.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/print.css
+HTTP_REFERER=https://localhost/crudYii/index.php/site/index
+---
+2021/12/13 23:19:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/form.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/form.css
+HTTP_REFERER=https://localhost/crudYii/
+---
+2021/12/13 23:19:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/main.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/main.css
+HTTP_REFERER=https://localhost/crudYii/
+---
+2021/12/13 23:19:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/screen.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/screen.css
+HTTP_REFERER=https://localhost/crudYii/
+---
+2021/12/13 23:19:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/print.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/print.css
+HTTP_REFERER=https://localhost/crudYii/
+---
+2021/12/13 23:19:08 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/main.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/main.css
+HTTP_REFERER=https://localhost/crudYii/site/index
+---
+2021/12/13 23:19:08 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/screen.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/screen.css
+HTTP_REFERER=https://localhost/crudYii/site/index
+---
+2021/12/13 23:19:08 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/form.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/form.css
+HTTP_REFERER=https://localhost/crudYii/site/index
+---
+2021/12/13 23:19:08 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/print.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/print.css
+HTTP_REFERER=https://localhost/crudYii/site/index
+---
+2021/12/13 23:19:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/main.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/main.css
+HTTP_REFERER=https://localhost/crudYii/site/page?view=about
+---
+2021/12/13 23:19:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/form.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/form.css
+HTTP_REFERER=https://localhost/crudYii/site/page?view=about
+---
+2021/12/13 23:19:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/screen.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/screen.css
+HTTP_REFERER=https://localhost/crudYii/site/page?view=about
+---
+2021/12/13 23:19:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/print.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/print.css
+HTTP_REFERER=https://localhost/crudYii/site/page?view=about
+---
+2021/12/13 23:19:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/form.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/form.css
+HTTP_REFERER=https://localhost/crudYii/site/contact
+---
+2021/12/13 23:19:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/main.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/main.css
+HTTP_REFERER=https://localhost/crudYii/site/contact
+---
+2021/12/13 23:19:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/screen.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/screen.css
+HTTP_REFERER=https://localhost/crudYii/site/contact
+---
+2021/12/13 23:19:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "assets/d648f8f6/jquery.js". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d648f8f6...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/assets/d648f8f6/jquery.js
+HTTP_REFERER=https://localhost/crudYii/site/contact
+---
+2021/12/13 23:19:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "assets/d648f8f6/jquery.yiiactiveform.js". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d648f8f6...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/assets/d648f8f6/jquery.yiiactiveform.js
+HTTP_REFERER=https://localhost/crudYii/site/contact
+---
+2021/12/13 23:19:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/print.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/print.css
+HTTP_REFERER=https://localhost/crudYii/site/contact
+---
+2021/12/13 23:19:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/screen.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/screen.css
+HTTP_REFERER=https://localhost/crudYii/site/login
+---
+2021/12/13 23:19:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/form.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/form.css
+HTTP_REFERER=https://localhost/crudYii/site/login
+---
+2021/12/13 23:19:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/main.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/main.css
+HTTP_REFERER=https://localhost/crudYii/site/login
+---
+2021/12/13 23:19:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "assets/d648f8f6/jquery.js". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d648f8f6...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/assets/d648f8f6/jquery.js
+HTTP_REFERER=https://localhost/crudYii/site/login
+---
+2021/12/13 23:19:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "assets/d648f8f6/jquery.yiiactiveform.js". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d648f8f6...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/assets/d648f8f6/jquery.yiiactiveform.js
+HTTP_REFERER=https://localhost/crudYii/site/login
+---
+2021/12/13 23:19:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "assets/d648f8f6/jquery.yiiactiveform.js". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d648f8f6...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/assets/d648f8f6/jquery.yiiactiveform.js
+HTTP_REFERER=https://localhost/crudYii/site/login
+---
+2021/12/13 23:19:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/print.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/print.css
+HTTP_REFERER=https://localhost/crudYii/site/login
+---
+2021/12/13 23:19:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/screen.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/screen.css
+HTTP_REFERER=https://localhost/crudYii/
+---
+2021/12/13 23:19:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/main.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/main.css
+HTTP_REFERER=https://localhost/crudYii/
+---
+2021/12/13 23:19:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/form.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/form.css
+HTTP_REFERER=https://localhost/crudYii/
+---
+2021/12/13 23:19:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/print.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/print.css
+HTTP_REFERER=https://localhost/crudYii/
+---
+2021/12/13 23:19:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/screen.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/screen.css
+HTTP_REFERER=https://localhost/crudYii/site/index
+---
+2021/12/13 23:19:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/form.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/form.css
+HTTP_REFERER=https://localhost/crudYii/site/index
+---
+2021/12/13 23:19:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/main.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/main.css
+HTTP_REFERER=https://localhost/crudYii/site/index
+---
+2021/12/13 23:19:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/print.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/print.css
+HTTP_REFERER=https://localhost/crudYii/site/index
+---
+2021/12/13 23:19:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/main.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/main.css
+HTTP_REFERER=https://localhost/crudYii/site/page?view=about
+---
+2021/12/13 23:19:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/form.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/form.css
+HTTP_REFERER=https://localhost/crudYii/site/page?view=about
+---
+2021/12/13 23:19:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/screen.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/screen.css
+HTTP_REFERER=https://localhost/crudYii/site/page?view=about
+---
+2021/12/13 23:19:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/print.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/print.css
+HTTP_REFERER=https://localhost/crudYii/site/page?view=about
+---
+2021/12/13 23:19:45 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/form.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/form.css
+HTTP_REFERER=https://localhost/crudYii/site/contact
+---
+2021/12/13 23:19:45 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "assets/d648f8f6/jquery.js". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d648f8f6...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/assets/d648f8f6/jquery.js
+HTTP_REFERER=https://localhost/crudYii/site/contact
+---
+2021/12/13 23:19:45 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/screen.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/screen.css
+HTTP_REFERER=https://localhost/crudYii/site/contact
+---
+2021/12/13 23:19:45 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/main.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/main.css
+HTTP_REFERER=https://localhost/crudYii/site/contact
+---
+2021/12/13 23:19:45 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "assets/d648f8f6/jquery.yiiactiveform.js". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d648f8f6...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/assets/d648f8f6/jquery.yiiactiveform.js
+HTTP_REFERER=https://localhost/crudYii/site/contact
+---
+2021/12/13 23:19:45 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/print.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/print.css
+HTTP_REFERER=https://localhost/crudYii/site/contact
+---
+2021/12/13 23:19:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/form.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/form.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/form.css
+HTTP_REFERER=https://localhost/crudYii/site/login
+---
+2021/12/13 23:19:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/screen.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/screen.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/screen.css
+HTTP_REFERER=https://localhost/crudYii/site/login
+---
+2021/12/13 23:19:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "assets/d648f8f6/jquery.js". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d648f8f6...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/assets/d648f8f6/jquery.js
+HTTP_REFERER=https://localhost/crudYii/site/login
+---
+2021/12/13 23:19:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "assets/d648f8f6/jquery.yiiactiveform.js". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d648f8f6...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/assets/d648f8f6/jquery.yiiactiveform.js
+HTTP_REFERER=https://localhost/crudYii/site/login
+---
+2021/12/13 23:19:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/main.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/main.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/main.css
+HTTP_REFERER=https://localhost/crudYii/site/login
+---
+2021/12/13 23:19:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "assets/d648f8f6/jquery.yiiactiveform.js". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/d648f8f6...')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/assets/d648f8f6/jquery.yiiactiveform.js
+HTTP_REFERER=https://localhost/crudYii/site/login
+---
+2021/12/13 23:19:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/print.css". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('css/print.css')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/css/print.css
+HTTP_REFERER=https://localhost/crudYii/site/login
+---
