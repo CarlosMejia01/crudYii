@@ -592,3 +592,442 @@ Stack trace:
 REQUEST_URI=/crudYii/css/print.css
 HTTP_REFERER=https://localhost/crudYii/site/login
 ---
+2021/12/14 00:54:33 [error] [php] include(CActive.php): failed to open stream: No such file or directory (D:\xampp\htdocs\framework\YiiBase.php:432)
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\models\Users.php(3): spl_autoload_call()
+#1 D:\xampp\htdocs\framework\YiiBase.php(432): include()
+#2 unknown(0): autoload()
+#3 D:\xampp\htdocs\framework\db\ar\CActiveRecord.php(395): spl_autoload_call()
+#4 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): model()
+#5 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#6 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\xampp\htdocs\framework\web\CController.php(286): HolaController->runAction()
+#8 D:\xampp\htdocs\framework\web\CController.php(265): HolaController->runActionWithFilters()
+#9 D:\xampp\htdocs\framework\web\CWebApplication.php(282): HolaController->run()
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\crudYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/crudYii/hola
+in D:\xampp\htdocs\crudYii\protected\models\Users.php (3)
+in D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php (6)
+in D:\xampp\htdocs\crudYii\index.php (13)
+2021/12/14 00:56:10 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:01:15 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hola". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:01:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hola". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:01:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hola". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:01:30 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:01:31 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:01:31 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:03:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hola". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:03:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hola". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:03:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hola". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:05:33 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hola". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:05:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hola". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:05:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hola". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:05:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hola". in D:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#1 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:07:24 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:07:24 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:07:25 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:07:25 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:07:25 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:07:44 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:07:44 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:07:45 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:07:45 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:07:45 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:07:45 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:07:45 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:21:54 [error] [php] include(this.php): failed to open stream: No such file or directory (D:\xampp\htdocs\framework\YiiBase.php:432)
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): spl_autoload_call()
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\xampp\htdocs\framework\web\CController.php(286): HolaController->runAction()
+#4 D:\xampp\htdocs\framework\web\CController.php(265): HolaController->runActionWithFilters()
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): HolaController->run()
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CWebApplication->run()
+REQUEST_URI=/crudYii/hola
+in D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php (6)
+in D:\xampp\htdocs\crudYii\index.php (13)
+2021/12/14 01:22:00 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:22:01 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:22:01 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:22:01 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:26:55 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:26:56 [error] [exception.CException] CException: Users and its behaviors do not have a method or closure named "findAll". in D:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(6): CComponent->__call('findAll', Array)
+#1 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#2 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#6 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#7 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/crudYii/hola
+---
+2021/12/14 01:27:30 [error] [exception.Error] Error: Object of class Users could not be converted to string in D:\xampp\htdocs\crudYii\protected\views\hola\index.php:3
+Stack trace:
+#0 D:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#1 D:\xampp\htdocs\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#2 D:\xampp\htdocs\framework\web\CController.php(869): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#3 D:\xampp\htdocs\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#4 D:\xampp\htdocs\crudYii\protected\controllers\HolaController.php(8): CController->render('index', Array)
+#5 D:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): HolaController->actionIndex()
+#6 D:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#10 D:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('hola')
+#11 D:\xampp\htdocs\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\xampp\htdocs\crudYii\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/crudYii/hola
+---
